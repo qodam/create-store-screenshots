@@ -1,0 +1,101 @@
+{
+  "out": "out",
+  "bg": ["#F4F4F6", "#E3E4E8"],
+  "font_bold": "fonts/Poppins-Bold.ttf",
+  "font_regular": "fonts/Poppins-Regular.ttf",
+  "fonts": {
+    "ru": {
+      "bold": "fonts/Jost-Bold.ttf",
+      "regular": "fonts/Jost-Regular.ttf"
+    },
+    "ar": {
+      "bold": "fonts/NotoSansArabic-Bold.ttf",
+      "regular": "fonts/NotoSansArabic-Regular.ttf"
+    },
+    "zh": {
+      "bold": "fonts/NotoSansSC-Bold.ttf",
+      "regular": "fonts/NotoSansSC-Regular.ttf"
+    },
+    "ja": {
+      "bold": "fonts/NotoSansJP-Bold.ttf",
+      "regular": "fonts/NotoSansJP-Regular.ttf"
+    },
+    "ko": {
+      "bold": "fonts/NotoSansKR-Bold.ttf",
+      "regular": "fonts/NotoSansKR-Regular.ttf"
+    }
+  },
+  "layout": {
+    "title": {
+      "y": 114,
+      "size": 237,
+      "font": "bold",
+      "color": "#15171C"
+    },
+    "subtitle": {
+      "y": 388,
+      "size": 120,
+      "font": "regular",
+      "color": "#5A5F6B"
+    },
+    "mockup": {
+      "y": "bottom",
+      "w": 1055.43,
+      "h": 2203.83,
+      "radius": "iphone",
+      "border": 20,
+      "color": "#15171C",
+      "buttons": true,
+      "fit": "stretch"
+    }
+  },
+  "tablet": {
+    "title": {
+      "y": 70,
+      "size": 260
+    },
+    "subtitle": {
+      "y": 345,
+      "size": 120
+    },
+    "mockup": {
+      "w": 1655,
+      "h": "auto",
+      "radius": "ipad",
+      "border": 30,
+      "buttons": false,
+      "fit": "stretch"
+    }
+  },
+  "screens": {
+    "fr": [
+      {
+        "img": "assets/mobile/fr/01-first.png",
+        "img_tablet": "assets/tablet/fr/01-first.png",
+        "headline": "Organise",
+        "sub": "Tes tâches du jour"
+      },
+      {
+        "img": "assets/mobile/fr/02-second.png",
+        "img_tablet": null,
+        "headline": "Dicte",
+        "sub": "À la voix",
+        "layout": { "title": { "size": 210 } }
+      }
+    ],
+    "en": [
+      {
+        "img": "assets/mobile/en/01-first.png",
+        "img_tablet": "assets/tablet/en/01-first.png",
+        "headline": "Organize",
+        "sub": "Everything for today"
+      },
+      {
+        "img": "assets/mobile/en/02-second.png",
+        "img_tablet": "assets/tablet/en/02-second.png",
+        "headline": "Dictate",
+        "sub": "With your voice"
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+# Generated output
+out/
+__pycache__/
+*.pyc
+
+# Local virtualenv
+.venv/
+venv/
+
+# Your personal config: the template is config.example.json
+/config.json
+
+# Your own screenshots and fonts: remove these lines if you want them versioned
+assets/
+fonts/
+
+# System / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
