@@ -12,7 +12,6 @@ venv/
 
 # Your own screenshots and fonts: remove these lines if you want them versioned
 assets/
-fonts/
 
 # System / editors
 .DS_Store
